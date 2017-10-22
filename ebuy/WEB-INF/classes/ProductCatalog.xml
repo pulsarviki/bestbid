@@ -1,0 +1,1759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductCatalog>
+	<product id="001">
+        <name>SONY</name>
+        <price>399</price>
+        <category>SMARTWATCHES</category>
+        <discount>11</discount>
+        <rdiscount>21</rdiscount>
+        <rwarranty>19</rwarranty>
+
+        <retailer>Bestdeal</retailer>
+        <retailerZip>60616</retailerZip>
+        <retailerCity>Chicago</retailerCity>
+        <retailerState>IL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>eEnterprise</manufacturerName>
+
+        <accessory>
+            <accname>Domestic Charger</accname>
+            <accprice>11</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Travel Charger</accname>
+            <accprice>12</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Earphone</accname>
+            <accprice>13</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Cell pack</accname>
+            <accprice>14</accprice>
+            <accdiscount>4</accdiscount>
+        </accessory>
+    </product>
+	<product id="002">
+        <name>Panasonic</name>
+        <price>299</price>
+        <category>SMARTWATCHES</category>
+        <discount>1</discount>
+        <rdiscount>16</rdiscount>
+        <rwarranty>10</rwarranty>
+
+        <retailer>Bestdeal</retailer>
+        <retailerZip>60616</retailerZip>
+        <retailerCity>Chicago</retailerCity>
+        <retailerState>IL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>eEnterprise</manufacturerName>
+
+        <accessory>
+            <accname>Earphone</accname>
+            <accprice>11</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Charger</accname>
+            <accprice>12</accprice>
+            <accdiscount>12</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Apadpter</accname>
+            <accprice>13</accprice>
+            <accdiscount>3</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Repair Kit</accname>
+            <accprice>14</accprice>
+            <accdiscount>4</accdiscount>
+        </accessory>
+    </product>
+	<product id="003">
+        <name>Toshiba</name>
+        <price>90</price>
+        <category>SMARTWATCHES</category>
+        <discount>11</discount>
+        <rdiscount>12</rdiscount>
+        <rwarranty>16</rwarranty>
+
+        <retailer>Bestdeal</retailer>
+        <retailerZip>60616</retailerZip>
+        <retailerCity>Chicago</retailerCity>
+        <retailerState>IL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>eEnterprise</manufacturerName>
+
+        <accessory>
+            <accname>Watch Cover</accname>
+            <accprice>11</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Screen Guard</accname>
+            <accprice>12</accprice>
+            <accdiscount>2</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Watch Remote</accname>
+            <accprice>13</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Brand Screen Guard</accname>
+            <accprice>14</accprice>
+            <accdiscount>4</accdiscount>
+        </accessory>
+    </product>
+	<product id="004">
+        <name>Honda</name>
+        <price>99</price>
+        <category>SMARTWATCHES</category>
+        <discount>19</discount>
+        <rdiscount>21</rdiscount>
+        <rwarranty>10</rwarranty>
+
+        <retailer>Bestdeal</retailer>
+        <retailerZip>60616</retailerZip>
+        <retailerCity>Chicago</retailerCity>
+        <retailerState>IL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>eEnterprise</manufacturerName>
+
+        <accessory>
+            <accname>Repair Kit</accname>
+            <accprice>11</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Cover</accname>
+            <accprice>12</accprice>
+            <accdiscount>2</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Light cleaner</accname>
+            <accprice>13</accprice>
+            <accdiscount>3</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Starter kit</accname>
+            <accprice>14</accprice>
+            <accdiscount>4</accdiscount>
+        </accessory>
+    </product>
+	<product id="005">
+        <name>Huwaei</name>
+        <price>299</price>
+        <category>SMARTWATCHES</category>
+        <discount>11</discount>
+        <rdiscount>10</rdiscount>
+        <rwarranty>10</rwarranty>
+
+        <retailer>Bestdeal</retailer>
+        <retailerZip>60616</retailerZip>
+        <retailerCity>Chicago</retailerCity>
+        <retailerState>IL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>eEnterprise</manufacturerName>
+
+        <accessory>
+            <accname>Bluetooth speaker</accname>
+            <accprice>100</accprice>
+            <accdiscount>11</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>NFC Tag</accname>
+            <accprice>12</accprice>
+            <accdiscount>2</accdiscount>
+        </accessory>
+    </product>
+	<product id="006">
+        <name>Baidu</name>
+        <price>109</price>
+        <category>SMARTWATCHES</category>
+        <discount>4</discount>
+        <rdiscount>11</rdiscount>
+        <rwarranty>10</rwarranty>
+
+        <retailer>Bestdeal</retailer>
+        <retailerZip>60616</retailerZip>
+        <retailerCity>Chicago</retailerCity>
+        <retailerState>IL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>eEnterprise</manufacturerName>
+
+        <accessory>
+            <accname>Programmer Kit</accname>
+            <accprice>110</accprice>
+            <accdiscount>11</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Repair kit</accname>
+            <accprice>102</accprice>
+            <accdiscount>2</accdiscount>
+        </accessory>
+    </product>
+	<product id="007">
+        <name>SONY Excel</name>
+        <price>199</price>
+        <category>SMARTWATCHES</category>
+        <discount>2</discount>
+        <rdiscount>7</rdiscount>
+        <rwarranty>10</rwarranty>
+
+        <retailer>Bestdeal</retailer>
+        <retailerZip>60112</retailerZip>
+        <retailerCity>Chicago</retailerCity>
+        <retailerState>IL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>eEnterprise</manufacturerName>
+
+        <accessory>
+            <accname>Screen guard</accname>
+            <accprice>11</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+    </product>
+	<product id="008">
+        <name>SONY Media</name>
+        <price>390</price>
+        <category>SMARTWATCHES</category>
+        <discount>1</discount>
+        <rdiscount>10</rdiscount>
+        <rwarranty>10</rwarranty>
+
+        <retailer>Bestdeal</retailer>
+        <retailerZip>60112</retailerZip>
+        <retailerCity>Chicago</retailerCity>
+        <retailerState>IL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>eEnterprise</manufacturerName>
+
+        <accessory>
+            <accname>Guard</accname>
+            <accprice>11</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Cover</accname>
+            <accprice>12</accprice>
+            <accdiscount>2</accdiscount>
+        </accessory>
+    </product>
+	<product id="009">
+        <name>Loyd Watch</name>
+        <price>97</price>
+        <category>SMARTWATCHES</category>
+        <discount>10</discount>
+        <rdiscount>50</rdiscount>
+        <rwarranty>10</rwarranty>
+
+        <retailer>Bestdeal</retailer>
+        <retailerZip>60112</retailerZip>
+        <retailerCity>Chicago</retailerCity>
+        <retailerState>IL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>eEnterprise</manufacturerName>
+
+        <accessory>
+            <accname>Cleaner</accname>
+            <accprice>11</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Cover</accname>
+            <accprice>12</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Guard</accname>
+            <accprice>13</accprice>
+            <accdiscount>3</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Protector</accname>
+            <accprice>19</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+    </product>
+	<product id="010">
+        <name>Samsung watch</name>
+        <price>59</price>
+        <category>SMARTWATCHES</category>
+        <discount>11</discount>
+        <rdiscount>1</rdiscount>
+        <rwarranty>10</rwarranty>
+
+        <retailer>Bestdeal</retailer>
+        <retailerZip>60112</retailerZip>
+        <retailerCity>Chicago</retailerCity>
+        <retailerState>IL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>eEnterprise</manufacturerName>
+
+        <accessory>
+            <accname>Screen Guard</accname>
+            <accprice>11</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Guard</accname>
+            <accprice>12</accprice>
+            <accdiscount>2</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Charger</accname>
+            <accprice>13</accprice>
+            <accdiscount>3</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Repair Kit</accname>
+            <accprice>14</accprice>
+            <accdiscount>4</accdiscount>
+        </accessory>
+    </product>
+    <product id="011">
+        <name>SONY</name>
+        <price>39</price>
+        <category>SPEAKERS</category>
+        <discount>1</discount>
+        <rdiscount>1</rdiscount>
+        <rwarranty>10</rwarranty>
+
+        <retailer>Bestdeal</retailer>
+        <retailerZip>60616</retailerZip>
+        <retailerCity>Chicago</retailerCity>
+        <retailerState>IL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>eEnterprise</manufacturerName>
+
+        <accessory>
+            <accname>Charger</accname>
+            <accprice>11</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Cover</accname>
+            <accprice>12</accprice>
+            <accdiscount>2</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Protector</accname>
+            <accprice>13</accprice>
+            <accdiscount>3</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Screen Guard</accname>
+            <accprice>14</accprice>
+            <accdiscount>4</accdiscount>
+        </accessory>
+    </product>
+	<product id="012">
+        <name>Videocon</name>
+        <price>77</price>
+        <category>SPEAKERS</category>
+        <discount>10</discount>
+        <rdiscount>7</rdiscount>
+        <rwarranty>10</rwarranty>
+
+        <retailer>Bestdeal</retailer>
+        <retailerZip>60212</retailerZip>
+        <retailerCity>Chicago</retailerCity>
+        <retailerState>IL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>eEnterprise</manufacturerName>
+
+        <accessory>
+            <accname>Charger</accname>
+            <accprice>19</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Cover</accname>
+            <accprice>21</accprice>
+            <accdiscount>2</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Protector</accname>
+            <accprice>17</accprice>
+            <accdiscount>3</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Screen Guard</accname>
+            <accprice>18</accprice>
+            <accdiscount>4</accdiscount>
+        </accessory>
+    </product>
+	<product id="013">
+        <name>Telco</name>
+        <price>96</price>
+        <category>SPEAKERS</category>
+        <discount>10</discount>
+        <rdiscount>6</rdiscount>
+        <rwarranty>13</rwarranty>
+
+        <retailer>Bestdeal</retailer>
+        <retailerZip>60212</retailerZip>
+        <retailerCity>Chicago</retailerCity>
+        <retailerState>IL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>eEnterprise</manufacturerName>
+
+        <accessory>
+            <accname>Repair Kit</accname>
+            <accprice>11</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Remote</accname>
+            <accprice>17</accprice>
+            <accdiscount>2</accdiscount>
+        </accessory>
+		<accessory>
+            <accname> Cover</accname>
+            <accprice>13</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Screen Guard</accname>
+            <accprice>14</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+    </product>
+	<product id="014">
+        <name>SONY Bluetooth</name>
+        <price>55</price>
+        <category>SPEAKERS</category>
+        <discount>18</discount>
+        <rdiscount>1</rdiscount>
+        <rwarranty>10</rwarranty>
+
+        <retailer>Bestdeal</retailer>
+        <retailerZip>60212</retailerZip>
+        <retailerCity>Chicago</retailerCity>
+        <retailerState>IL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>eEnterprise</manufacturerName>
+
+        <accessory>
+            <accname>Repair Kit</accname>
+            <accprice>11</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Remote</accname>
+            <accprice>17</accprice>
+            <accdiscount>2</accdiscount>
+        </accessory>
+		<accessory>
+            <accname> Cover</accname>
+            <accprice>13</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Screen Guard</accname>
+            <accprice>14</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+    </product>
+	<product id="015">
+        <name>Hero speakers</name>
+        <price>89</price>
+        <category>SPEAKERS</category>
+        <discount>11</discount>
+        <rdiscount>15</rdiscount>
+        <rwarranty>10</rwarranty>
+
+        <retailer>Bestdeal</retailer>
+        <retailerZip>60212</retailerZip>
+        <retailerCity>Chicago</retailerCity>
+        <retailerState>IL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>eEnterprise</manufacturerName>
+
+        <accessory>
+            <accname>Repair Kit</accname>
+            <accprice>11</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Remote</accname>
+            <accprice>17</accprice>
+            <accdiscount>2</accdiscount>
+        </accessory>
+		<accessory>
+            <accname> Cover</accname>
+            <accprice>13</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Screen Guard</accname>
+            <accprice>14</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+    </product>
+	<product id="016">
+        <name>Expedia Travel Speaker</name>
+        <price>69</price>
+        <category>SPEAKERS</category>
+        <discount>6</discount>
+        <rdiscount>5</rdiscount>
+        <rwarranty>7</rwarranty>
+
+        <retailer>Bestdeal</retailer>
+        <retailerZip>60616</retailerZip>
+        <retailerCity>Chicago</retailerCity>
+        <retailerState>IL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>eEnterprise</manufacturerName>
+
+        <accessory>
+            <accname>Repair Kit</accname>
+            <accprice>11</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Remote</accname>
+            <accprice>17</accprice>
+            <accdiscount>2</accdiscount>
+        </accessory>
+		<accessory>
+            <accname> Cover</accname>
+            <accprice>13</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Screen Guard</accname>
+            <accprice>14</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+    </product>
+	<product id="017">
+        <name>Dell Speak</name>
+        <price>79</price>
+        <category>SPEAKERS</category>
+        <discount>1</discount>
+        <rdiscount>1</rdiscount>
+        <rwarranty>10</rwarranty>
+
+        <retailer>Bestdeal</retailer>
+        <retailerZip>60222</retailerZip>
+        <retailerCity>Chicago</retailerCity>
+        <retailerState>IL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>eEnterprise</manufacturerName>
+
+        <accessory>
+            <accname>Repair Kit</accname>
+            <accprice>11</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Remote</accname>
+            <accprice>17</accprice>
+            <accdiscount>2</accdiscount>
+        </accessory>
+		<accessory>
+            <accname> Cover</accname>
+            <accprice>13</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Screen Guard</accname>
+            <accprice>14</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+    </product>
+	<product id="018">
+        <name>Acer Speaker</name>
+        <price>85</price>
+        <category>SPEAKERS</category>
+        <discount>10</discount>
+        <rdiscount>5</rdiscount>
+        <rwarranty>10</rwarranty>
+
+        <retailer>Bestdeal</retailer>
+        <retailerZip>60222</retailerZip>
+        <retailerCity>Chicago</retailerCity>
+        <retailerState>IL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>eEnterprise</manufacturerName>
+
+        <accessory>
+            <accname>Repair Kit</accname>
+            <accprice>11</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Remote</accname>
+            <accprice>17</accprice>
+            <accdiscount>2</accdiscount>
+        </accessory>
+		<accessory>
+            <accname> Cover</accname>
+            <accprice>13</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Screen Guard</accname>
+            <accprice>14</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+    </product>
+	<product id="019">
+        <name>HP Speak Me</name>
+        <price>75</price>
+        <category>SPEAKERS</category>
+        <discount>15</discount>
+        <rdiscount>17</rdiscount>
+        <rwarranty>10</rwarranty>
+
+        <retailer>Bestdeal</retailer>
+        <retailerZip>60222</retailerZip>
+        <retailerCity>Chicago</retailerCity>
+        <retailerState>IL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>eEnterprise</manufacturerName>
+
+        <accessory>
+            <accname>Repair Kit</accname>
+            <accprice>11</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Remote</accname>
+            <accprice>17</accprice>
+            <accdiscount>2</accdiscount>
+        </accessory>
+		<accessory>
+            <accname> Cover</accname>
+            <accprice>13</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Screen Guard</accname>
+            <accprice>14</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+    </product>
+	<product id="020">
+        <name>Beats</name>
+        <price>569</price>
+        <category>SPEAKERS</category>
+        <discount>16</discount>
+        <rdiscount>10</rdiscount>
+        <rwarranty>10</rwarranty>
+
+        <retailer>Bestdeal</retailer>
+        <retailerZip>60302</retailerZip>
+        <retailerCity>Chicago</retailerCity>
+        <retailerState>IL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>eEnterprise</manufacturerName>
+
+        <accessory>
+            <accname>Repair Kit</accname>
+            <accprice>11</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Remote</accname>
+            <accprice>17</accprice>
+            <accdiscount>2</accdiscount>
+        </accessory>
+		<accessory>
+            <accname> Cover</accname>
+            <accprice>13</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Screen Guard</accname>
+            <accprice>14</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+    </product>
+    <product id="021">
+        <name>Dell</name>
+        <price>233</price>
+        <category>HEADPHONES</category>
+        <discount>11</discount>
+        <rdiscount>10</rdiscount>
+        <rwarranty>1</rwarranty>
+
+        <retailer>GoOne</retailer>
+        <retailerZip>60302</retailerZip>
+        <retailerCity>Chicago</retailerCity>
+        <retailerState>IL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>eEnterprise</manufacturerName>
+        <accessory>
+            <accname>Bluetooth</accname>
+            <accprice>14</accprice>
+            <accdiscount>2</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Cable</accname>
+            <accprice>18</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+    </product>
+	<product id="022">
+        <name>Zebronica</name>
+        <price>233</price>
+        <category>HEADPHONES</category>
+        <discount>10</discount>
+        <rdiscount>11</rdiscount>
+        <rwarranty>10</rwarranty>
+
+        <retailer>GoOne</retailer>
+        <retailerZip>60302</retailerZip>
+        <retailerCity>Chicago</retailerCity>
+        <retailerState>IL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>eEnterprise</manufacturerName>
+        <accessory>
+            <accname>Bluetooth</accname>
+            <accprice>14</accprice>
+            <accdiscount>2</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Cable</accname>
+            <accprice>18</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+    </product>
+	<product id="023">
+        <name>Jepordy</name>
+        <price>239</price>
+        <category>HEADPHONES</category>
+        <discount>11</discount>
+        <rdiscount>1</rdiscount>
+        <rwarranty>1</rwarranty>
+
+        <retailer>GoOne</retailer>
+        <retailerZip>60302</retailerZip>
+        <retailerCity>Chicago</retailerCity>
+        <retailerState>IL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>eEnterprise</manufacturerName>
+        <accessory>
+            <accname>Bluetooth</accname>
+            <accprice>14</accprice>
+            <accdiscount>2</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Cable</accname>
+            <accprice>18</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+    </product>
+	<product id="024">
+        <name>Locala</name>
+        <price>673</price>
+        <category>HEADPHONES</category>
+        <discount>110</discount>
+        <rdiscount>100</rdiscount>
+        <rwarranty>1</rwarranty>
+
+        <retailer>GoOne</retailer>
+        <retailerZip>61102</retailerZip>
+        <retailerCity>Chicago</retailerCity>
+        <retailerState>IL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>eEnterprise</manufacturerName>
+        <accessory>
+            <accname>Bluetooth</accname>
+            <accprice>14</accprice>
+            <accdiscount>2</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Cable</accname>
+            <accprice>18</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+    </product>
+	<product id="025">
+        <name>Microsoft XPS</name>
+        <price>453</price>
+        <category>HEADPHONES</category>
+        <discount>10</discount>
+        <rdiscount>10</rdiscount>
+        <rwarranty>18</rwarranty>
+
+        <retailer>GoOne</retailer>
+        <retailerZip>61102</retailerZip>
+        <retailerCity>Chicago</retailerCity>
+        <retailerState>IL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>eEnterprise</manufacturerName>
+        <accessory>
+            <accname>Bluetooth</accname>
+            <accprice>14</accprice>
+            <accdiscount>2</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Cable</accname>
+            <accprice>18</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+    </product>
+	<product id="026">
+        <name>Microsoft XP1</name>
+        <price>253</price>
+        <category>HEADPHONES</category>
+        <discount>11</discount>
+        <rdiscount>10</rdiscount>
+        <rwarranty>1</rwarranty>
+
+        <retailer>GoOne</retailer>
+        <retailerZip>61102</retailerZip>
+        <retailerCity>Chicago</retailerCity>
+        <retailerState>IL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>eEnterprise</manufacturerName>
+        <accessory>
+            <accname>Bluetooth</accname>
+            <accprice>14</accprice>
+            <accdiscount>2</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Cable</accname>
+            <accprice>18</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+    </product>
+	<product id="027">
+        <name>Dell Inspire</name>
+        <price>433</price>
+        <category>HEADPHONES</category>
+        <discount>19</discount>
+        <rdiscount>20</rdiscount>
+        <rwarranty>10</rwarranty>
+
+        <retailer>GoOne</retailer>
+        <retailerZip>61102</retailerZip>
+        <retailerCity>Chicago</retailerCity>
+        <retailerState>IL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>eEnterprise</manufacturerName>
+        <accessory>
+            <accname>Bluetooth</accname>
+            <accprice>14</accprice>
+            <accdiscount>2</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Cable</accname>
+            <accprice>18</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+    </product>
+	<product id="028">
+        <name>Samsung S99</name>
+        <price>293</price>
+        <category>HEADPHONES</category>
+        <discount>11</discount>
+        <rdiscount>10</rdiscount>
+        <rwarranty>1</rwarranty>
+
+        <retailer>GoOne</retailer>
+        <retailerZip>61002</retailerZip>
+        <retailerCity>Chicago</retailerCity>
+        <retailerState>IL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>eEnterprise</manufacturerName>
+        <accessory>
+            <accname>Bluetooth</accname>
+            <accprice>14</accprice>
+            <accdiscount>2</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Cable</accname>
+            <accprice>18</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+    </product>
+	<product id="029">
+        <name>Samsung I90</name>
+        <price>233</price>
+        <category>HEADPHONES</category>
+        <discount>11</discount>
+        <rdiscount>10</rdiscount>
+        <rwarranty>1</rwarranty>
+
+        <retailer>GoOne</retailer>
+        <retailerZip>61002</retailerZip>
+        <retailerCity>Chicago</retailerCity>
+        <retailerState>IL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>eEnterprise</manufacturerName>
+        <accessory>
+            <accname>Bluetooth</accname>
+            <accprice>14</accprice>
+            <accdiscount>2</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Cable</accname>
+            <accprice>18</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+    </product>
+	<product id="030">
+        <name>Dell Uno</name>
+        <price>233</price>
+        <category>HEADPHONES</category>
+        <discount>11</discount>
+        <rdiscount>10</rdiscount>
+        <rwarranty>1</rwarranty>
+
+        <retailer>GoOne</retailer>
+        <retailerZip>61002</retailerZip>
+        <retailerCity>Chicago</retailerCity>
+        <retailerState>IL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>eEnterprise</manufacturerName>
+        <accessory>
+            <accname>Bluetooth</accname>
+            <accprice>14</accprice>
+            <accdiscount>2</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Cable</accname>
+            <accprice>18</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+    </product>
+	     <product id="031">
+        <name>Xavior</name>
+        <price>399</price>
+        <category>PHONES</category>
+        <discount>12</discount>
+        <rdiscount>1</rdiscount>
+        <rwarranty>10</rwarranty>
+         <retailer>GoOne</retailer>
+        <retailerZip>61002</retailerZip>
+        <retailerCity>Newyork</retailerCity>
+        <retailerState>NY</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>honeywell</manufacturerName>
+        <accessory>
+            <accname>Bluetooth</accname>
+            <accprice>14</accprice>
+            <accdiscount>2</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Cable</accname>
+            <accprice>18</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+    </product>
+	     <product id="032">
+        <name>Zen phone</name>
+        <price>299</price>
+        <category>PHONES</category>
+        <discount>18</discount>
+        <rdiscount>19</rdiscount>
+        <rwarranty>10</rwarranty>
+         <retailer>GoOne</retailer>
+        <retailerZip>10001</retailerZip>
+        <retailerCity>Newyork</retailerCity>
+        <retailerState>NY</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>honeywell</manufacturerName>
+        <accessory>
+            <accname>Bluetooth</accname>
+            <accprice>14</accprice>
+            <accdiscount>2</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Cable</accname>
+            <accprice>18</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+    </product>
+	     <product id="033">
+        <name>Speak Me</name>
+        <price>199</price>
+        <category>PHONES</category>
+        <discount>12</discount>
+        <rdiscount>1</rdiscount>
+        <rwarranty>10</rwarranty>
+         <retailer>GoOne</retailer>
+        <retailerZip>10001</retailerZip>
+        <retailerCity>Newyork</retailerCity>
+        <retailerState>NY</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>honeywell</manufacturerName>
+        <accessory>
+            <accname>Bluetooth</accname>
+            <accprice>14</accprice>
+            <accdiscount>2</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Cable</accname>
+            <accprice>18</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+    </product>
+	<product id="034">
+        <name>iPhone L</name>
+        <price>899</price>
+        <category>PHONES</category>
+        <discount>12</discount>
+        <rdiscount>10</rdiscount>
+        <rwarranty>100</rwarranty>
+         <retailer>GoOne</retailer>
+        <retailerZip>10001</retailerZip>
+        <retailerCity>Newyork</retailerCity>
+        <retailerState>NY</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>honeywell</manufacturerName>
+        <accessory>
+            <accname>Bluetooth</accname>
+            <accprice>14</accprice>
+            <accdiscount>2</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Cable</accname>
+            <accprice>18</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+    </product>
+	<product id="035">
+        <name>Facebook phone</name>
+        <price>2399</price>
+        <category>PHONES</category>
+        <discount>12</discount>
+        <rdiscount>1</rdiscount>
+        <rwarranty>10</rwarranty>
+         <retailer>GoOne</retailer>
+        <retailerZip>10001</retailerZip>
+        <retailerCity>Newyork</retailerCity>
+        <retailerState>NY</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>honeywell</manufacturerName>
+        <accessory>
+            <accname>Bluetooth</accname>
+            <accprice>14</accprice>
+            <accdiscount>2</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Cable</accname>
+            <accprice>18</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Bluetooth speaker</accname>
+            <accprice>17</accprice>
+            <accdiscount>2</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Cable connector</accname>
+            <accprice>18</accprice>
+            <accdiscount>11</accdiscount>
+        </accessory>
+    </product>
+	<product id="036">
+        <name>Xen phone 1</name>
+        <price>599</price>
+        <category>PHONES</category>
+        <discount>12</discount>
+        <rdiscount>1</rdiscount>
+        <rwarranty>10</rwarranty>
+         <retailer>GoOne</retailer>
+        <retailerZip>10001</retailerZip>
+        <retailerCity>Newyork</retailerCity>
+        <retailerState>NY</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>honeywell</manufacturerName>
+        <accessory>
+            <accname>Watch</accname>
+            <accprice>100</accprice>
+            <accdiscount>11</accdiscount>
+        </accessory>
+    </product>
+	<product id="037">
+        <name>Zeus one</name>
+        <price>2399</price>
+        <category>PHONES</category>
+        <discount>12</discount>
+        <rdiscount>1</rdiscount>
+        <rwarranty>10</rwarranty>
+         <retailer>GoOne</retailer>
+        <retailerZip>10001</retailerZip>
+        <retailerCity>Newyork</retailerCity>
+        <retailerState>NY</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>honeywell</manufacturerName>
+        <accessory>
+            <accname>Zeus Watch</accname>
+            <accprice>100</accprice>
+            <accdiscount>11</accdiscount>
+        </accessory>
+    </product>
+	<product id="038">
+        <name>Item Phone i1</name>
+        <price>710</price>
+        <category>PHONES</category>
+        <discount>102</discount>
+        <rdiscount>10</rdiscount>
+        <rwarranty>13</rwarranty>
+         <retailer>GoOne</retailer>
+        <retailerZip>10001</retailerZip>
+        <retailerCity>Newyork</retailerCity>
+        <retailerState>NY</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>honeywell</manufacturerName>
+        <accessory>
+            <accname>Charger</accname>
+            <accprice>100</accprice>
+            <accdiscount>11</accdiscount>
+        </accessory>
+    </product>
+	<product id="039">
+        <name>Zenotica</name>
+        <price>699</price>
+        <category>PHONES</category>
+        <discount>120</discount>
+        <rdiscount>11</rdiscount>
+        <rwarranty>16</rwarranty>
+         <retailer>GoOne</retailer>
+        <retailerZip>10001</retailerZip>
+        <retailerCity>Newyork</retailerCity>
+        <retailerState>NY</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>honeywell</manufacturerName>
+        <accessory>
+            <accname>Charger</accname>
+            <accprice>100</accprice>
+            <accdiscount>11</accdiscount>
+        </accessory>
+    </product>
+	<product id="040">
+        <name>Xavior x1</name>
+        <price>299</price>
+        <category>PHONES</category>
+        <discount>12</discount>
+        <rdiscount>1</rdiscount>
+        <rwarranty>10</rwarranty>
+         <retailer>GoOne</retailer>
+        <retailerZip>10001</retailerZip>
+        <retailerCity>Newyork</retailerCity>
+        <retailerState>NY</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>honeywell</manufacturerName>
+        <accessory>
+            <accname>X Charger</accname>
+            <accprice>100</accprice>
+            <accdiscount>11</accdiscount>
+        </accessory>
+    </product>
+	<product id="041">
+        <name>Dell i1</name>
+        <price>1099</price>
+        <category>LAPTOPS</category>
+        <discount>12</discount>
+        <rdiscount>1</rdiscount>
+        <rwarranty>10</rwarranty>
+         <retailer>GoOne</retailer>
+        <retailerZip>10001</retailerZip>
+        <retailerCity>Newyork</retailerCity>
+        <retailerState>NY</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>honeywell</manufacturerName>
+        <accessory>
+            <accname>TV Tuner</accname>
+            <accprice>100</accprice>
+            <accdiscount>91</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Modem</accname>
+            <accprice>50</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Wifi</accname>
+            <accprice>60</accprice>
+            <accdiscount>11</accdiscount>
+        </accessory>
+		
+    </product>
+	<product id="042">
+        <name>Lloyd tv laptop</name>
+        <price>2399</price>
+        <category>LAPTOPS</category>
+        <discount>12</discount>
+        <rdiscount>11</rdiscount>
+        <rwarranty>10</rwarranty>
+         <retailer>GoOne</retailer>
+        <retailerZip>10001</retailerZip>
+        <retailerCity>Newyork</retailerCity>
+        <retailerState>NY</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>honeywell</manufacturerName>
+        <accessory>
+            <accname>TV Tuner</accname>
+            <accprice>100</accprice>
+            <accdiscount>91</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Modem</accname>
+            <accprice>50</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Wifi</accname>
+            <accprice>60</accprice>
+            <accdiscount>11</accdiscount>
+        </accessory>
+    </product>
+	<product id="043">
+        <name>Xperia X1</name>
+        <price>1309</price>
+        <category>LAPTOPS</category>
+        <discount>12</discount>
+        <rdiscount>1</rdiscount>
+        <rwarranty>10</rwarranty>
+         <retailer>GoOne</retailer>
+        <retailerZip>10001</retailerZip>
+        <retailerCity>Newyork</retailerCity>
+        <retailerState>NY</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>honeywell</manufacturerName>
+        <accessory>
+            <accname>TV Tuner</accname>
+            <accprice>100</accprice>
+            <accdiscount>91</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Modem</accname>
+            <accprice>50</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Wifi</accname>
+            <accprice>60</accprice>
+            <accdiscount>11</accdiscount>
+        </accessory>
+    </product>
+	<product id="044">
+        <name>Apple h6</name>
+        <price>999</price>
+        <category>LAPTOPS</category>
+        <discount>120</discount>
+        <rdiscount>1</rdiscount>
+        <rwarranty>106</rwarranty>
+         <retailer>GoOne</retailer>
+        <retailerZip>10001</retailerZip>
+        <retailerCity>Newyork</retailerCity>
+        <retailerState>NY</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>honeywell</manufacturerName>
+        <accessory>
+            <accname>Apple TV Tuner</accname>
+            <accprice>100</accprice>
+            <accdiscount>91</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Apple Modem</accname>
+            <accprice>50</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Wifi</accname>
+            <accprice>60</accprice>
+            <accdiscount>11</accdiscount>
+        </accessory>
+    </product>
+	<product id="045">
+        <name>HP L66</name>
+        <price>2399</price>
+        <category>LAPTOPS</category>
+        <discount>129</discount>
+        <rdiscount>16</rdiscount>
+        <rwarranty>110</rwarranty>
+         <retailer>GoOne</retailer>
+        <retailerZip>10001</retailerZip>
+        <retailerCity>Newyork</retailerCity>
+        <retailerState>NY</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>honeywell</manufacturerName>
+        <accessory>
+            <accname>TV Tuner</accname>
+            <accprice>100</accprice>
+            <accdiscount>91</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Modem</accname>
+            <accprice>50</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Wifi</accname>
+            <accprice>60</accprice>
+            <accdiscount>11</accdiscount>
+        </accessory>
+    </product>
+	<product id="046">
+        <name>HP One</name>
+        <price>599</price>
+        <category>LAPTOPS</category>
+        <discount>12</discount>
+        <rdiscount>1</rdiscount>
+        <rwarranty>10</rwarranty>
+         <retailer>GoOne</retailer>
+        <retailerZip>10001</retailerZip>
+        <retailerCity>Newyork</retailerCity>
+        <retailerState>NY</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>honeywell</manufacturerName>
+        <accessory>
+            <accname>TV Tuner</accname>
+            <accprice>100</accprice>
+            <accdiscount>91</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Modem</accname>
+            <accprice>50</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Wifi</accname>
+            <accprice>60</accprice>
+            <accdiscount>11</accdiscount>
+        </accessory>
+    </product>
+	<product id="047">
+        <name>Xen L9</name>
+        <price>999</price>
+        <category>LAPTOPS</category>
+        <discount>1</discount>
+        <rdiscount>11</rdiscount>
+        <rwarranty>19</rwarranty>
+         <retailer>GoOne</retailer>
+        <retailerZip>10001</retailerZip>
+        <retailerCity>Newyork</retailerCity>
+        <retailerState>NY</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>honeywell</manufacturerName>
+        <accessory>
+            <accname>TV Tuner</accname>
+            <accprice>100</accprice>
+            <accdiscount>91</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Modem</accname>
+            <accprice>50</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Wifi</accname>
+            <accprice>60</accprice>
+            <accdiscount>11</accdiscount>
+        </accessory>
+    </product>
+	<product id="048">
+        <name>Techtronics</name>
+        <price>2019</price>
+        <category>LAPTOPS</category>
+        <discount>120</discount>
+        <rdiscount>21</rdiscount>
+        <rwarranty>120</rwarranty>
+         <retailer>GoOne</retailer>
+        <retailerZip>10091</retailerZip>
+        <retailerCity>Newyork</retailerCity>
+        <retailerState>NY</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>honeywell</manufacturerName>
+        <accessory>
+            <accname>TV Tuner</accname>
+            <accprice>100</accprice>
+            <accdiscount>91</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Modem</accname>
+            <accprice>50</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Wifi</accname>
+            <accprice>60</accprice>
+            <accdiscount>11</accdiscount>
+        </accessory>
+    </product>
+	<product id="049">
+        <name>Blurpop</name>
+        <price>1399</price>
+        <category>LAPTOPS</category>
+        <discount>12</discount>
+        <rdiscount>1</rdiscount>
+        <rwarranty>10</rwarranty>
+         <retailer>GoOne</retailer>
+        <retailerZip>10201</retailerZip>
+        <retailerCity>Newyork</retailerCity>
+        <retailerState>NY</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>honeywell</manufacturerName>
+        <accessory>
+            <accname>TV Tuner</accname>
+            <accprice>100</accprice>
+            <accdiscount>91</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Modem</accname>
+            <accprice>50</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Wifi</accname>
+            <accprice>60</accprice>
+            <accdiscount>11</accdiscount>
+        </accessory>
+    </product>
+	<product id="050">
+        <name>Blue O1</name>
+        <price>1599</price>
+        <category>LAPTOPS</category>
+        <discount>17</discount>
+        <rdiscount>10</rdiscount>
+        <rwarranty>100</rwarranty>
+         <retailer>GoOne</retailer>
+        <retailerZip>10001</retailerZip>
+        <retailerCity>Newyork</retailerCity>
+        <retailerState>NY</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>honeywell</manufacturerName>
+        <accessory>
+            <accname>TV Tuner</accname>
+            <accprice>100</accprice>
+            <accdiscount>91</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Modem</accname>
+            <accprice>50</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Wifi</accname>
+            <accprice>60</accprice>
+            <accdiscount>11</accdiscount>
+        </accessory>
+    </product>
+	<product id="051">
+        <name>Seagate</name>
+        <price>49</price>
+        <category>EXTERNALSTORAGE</category>
+        <discount>10</discount>
+        <rdiscount>1</rdiscount>
+        <rwarranty>10</rwarranty>
+         <retailer>Kotakdeal</retailer>
+        <retailerZip>29901</retailerZip>
+        <retailerCity>california</retailerCity>
+        <retailerState>CAL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>honeywell</manufacturerName>
+        <accessory>
+            <accname>Cover</accname>
+            <accprice>100</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Protector</accname>
+            <accprice>10</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+    </product>
+	<product id="052">
+        <name>Seaonite</name>
+        <price>79</price>
+        <category>EXTERNALSTORAGE</category>
+        <discount>10</discount>
+        <rdiscount>10</rdiscount>
+        <rwarranty>10</rwarranty>
+         <retailer>Kotakdeal</retailer>
+        <retailerZip>10982</retailerZip>
+        <retailerCity>california</retailerCity>
+        <retailerState>CAL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>honeywell</manufacturerName>
+        <accessory>
+            <accname>Cover</accname>
+            <accprice>100</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Protector</accname>
+            <accprice>10</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Silicone Protector</accname>
+            <accprice>10</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+    </product>
+	<product id="053">
+        <name>WD Elements</name>
+        <price>79</price>
+        <category>EXTERNALSTORAGE</category>
+        <discount>1</discount>
+        <rdiscount>11</rdiscount>
+        <rwarranty>16</rwarranty>
+         <retailer>Kotakdeal</retailer>
+        <retailerZip>29901</retailerZip>
+        <retailerCity>california</retailerCity>
+        <retailerState>CAL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>honeywell</manufacturerName>
+        <accessory>
+            <accname>Cover</accname>
+            <accprice>100</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Protector</accname>
+            <accprice>10</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Silicone Protector</accname>
+            <accprice>10</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+    </product>
+	<product id="054">
+        <name>Hp store</name>
+        <price>49</price>
+        <category>EXTERNALSTORAGE</category>
+        <discount>11</discount>
+        <rdiscount>12</rdiscount>
+        <rwarranty>11</rwarranty>
+         <retailer>Kotakdeal</retailer>
+        <retailerZip>29901</retailerZip>
+        <retailerCity>california</retailerCity>
+        <retailerState>CAL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>honeywell</manufacturerName>
+        <accessory>
+            <accname>Cover</accname>
+            <accprice>100</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Protector</accname>
+            <accprice>10</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Silicone Protector</accname>
+            <accprice>10</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+    </product>
+	<product id="055">
+        <name>SenStore Plus</name>
+        <price>55</price>
+        <category>EXTERNALSTORAGE</category>
+        <discount>1</discount>
+        <rdiscount>3</rdiscount>
+        <rwarranty>4</rwarranty>
+         <retailer>Kotakdeal</retailer>
+        <retailerZip>10912</retailerZip>
+        <retailerCity>california</retailerCity>
+        <retailerState>CAL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>honeywell</manufacturerName>
+        <accessory>
+            <accname>Cover</accname>
+            <accprice>100</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Protector</accname>
+            <accprice>10</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Silicone Protector</accname>
+            <accprice>10</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+    </product>
+	<product id="056">
+        <name>DiskStore</name>
+        <price>77</price>
+        <category>EXTERNALSTORAGE</category>
+        <discount>7</discount>
+        <rdiscount>6</rdiscount>
+        <rwarranty>10</rwarranty>
+         <retailer>Kotakdeal</retailer>
+        <retailerZip>10912</retailerZip>
+        <retailerCity>california</retailerCity>
+        <retailerState>CAL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>honeywell</manufacturerName>
+        <accessory>
+            <accname>Cover</accname>
+            <accprice>100</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Protector</accname>
+            <accprice>10</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Silicone Protector</accname>
+            <accprice>10</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+    </product>
+	<product id="057">
+        <name>DiskMan Plus</name>
+        <price>69</price>
+        <category>EXTERNALSTORAGE</category>
+        <discount>2</discount>
+        <rdiscount>4</rdiscount>
+        <rwarranty>7</rwarranty>
+         <retailer>Kotakdeal</retailer>
+        <retailerZip>10912</retailerZip>
+        <retailerCity>california</retailerCity>
+        <retailerState>CAL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>honeywell</manufacturerName>
+        <accessory>
+            <accname>Cover</accname>
+            <accprice>100</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Protector</accname>
+            <accprice>10</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Silicone Protector</accname>
+            <accprice>10</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+    </product>
+	<product id="058">
+        <name>Philips Store</name>
+        <price>89</price>
+        <category>EXTERNALSTORAGE</category>
+        <discount>11</discount>
+        <rdiscount>11</rdiscount>
+        <rwarranty>1</rwarranty>
+         <retailer>Kotakdeal</retailer>
+        <retailerZip>60102</retailerZip>
+        <retailerCity>california</retailerCity>
+        <retailerState>CAL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>honeywell</manufacturerName>
+        <accessory>
+            <accname>Cover</accname>
+            <accprice>100</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Protector</accname>
+            <accprice>10</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Silicone Protector</accname>
+            <accprice>10</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+    </product>
+	<product id="059">
+        <name>LG Store Me</name>
+        <price>99</price>
+        <category>EXTERNALSTORAGE</category>
+        <discount>10</discount>
+        <rdiscount>4</rdiscount>
+        <rwarranty>10</rwarranty>
+         <retailer>Kotakdeal</retailer>
+        <retailerZip>60102</retailerZip>
+        <retailerCity>california</retailerCity>
+        <retailerState>CAL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>honeywell</manufacturerName>
+        <accessory>
+            <accname>Cover</accname>
+            <accprice>100</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Protector</accname>
+            <accprice>10</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Silicone Protector</accname>
+            <accprice>10</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+    </product>
+	<product id="060">
+        <name>DiskMan Plus 2</name>
+        <price>89</price>
+        <category>EXTERNALSTORAGE</category>
+        <discount>21</discount>
+        <rdiscount>11</rdiscount>
+        <rwarranty>10</rwarranty>
+         <retailer>Kotakdeal</retailer>
+        <retailerZip>60102</retailerZip>
+        <retailerCity>california</retailerCity>
+        <retailerState>CAL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>honeywell</manufacturerName>
+        <accessory>
+            <accname>Disk Cover</accname>
+            <accprice>100</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>ProtectorKit </accname>
+            <accprice>11</accprice>
+            <accdiscount>2</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Silicone Protector</accname>
+            <accprice>10</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+    </product>
+	<product id="061">
+        <name>Coupons</name>
+        <price>10</price>
+        <category>OTHERS</category>
+        <discount>21</discount>
+        <rdiscount>11</rdiscount>
+        <rwarranty>10</rwarranty>
+         <retailer>Kotakdeal</retailer>
+        <retailerZip>60102</retailerZip>
+        <retailerCity>california</retailerCity>
+        <retailerState>CAL</retailerState>
+        <productOnSale>YES</productOnSale>
+        <manufacturerName>honeywell</manufacturerName>
+        <accessory>
+            <accname>Disk Coupons</accname>
+            <accprice>100</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Protector Kit Coupons </accname>
+            <accprice>11</accprice>
+            <accdiscount>2</accdiscount>
+        </accessory>
+		<accessory>
+            <accname>Other Protector Coupons</accname>
+            <accprice>10</accprice>
+            <accdiscount>1</accdiscount>
+        </accessory>
+    </product>
+     
+</ProductCatalog>
