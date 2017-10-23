@@ -149,13 +149,24 @@ public class CartPage extends HttpServlet {
 		// 	session.setAttribute("cart", cartproducts);
 		// }
 
-
+    String highest_bid = request.getParameter("highest_bid");
     String bid_value = request.getParameter("bid_value");
-    int product_id = Integer.parseInt(request.getParameter("product_id"));
-    System.out.println("value of int "+product_id);
-    Product.updateBidValue(bid_value, product_id);
-
-		response.sendRedirect(response.encodeRedirectURL(request.getContextPath() + "/HomePage?Bid-Value-Set"));
+    String product_id = request.getParameter("product_id");
+    String username = request.getParameter("username");
+    
+    
+    if(Integer.parseInt(highest_bid) < Integer.parseInt(bid_value)){
+      HashMap<String, Users> users = (HashMap<String, Users>) Users.loadUsers();
+      Users u = users.get(username);
+      String email = u.getEmail();
+      String phone = u.getPhone();
+      System.out.println("user object is "+u+"email is "+email+" and phone is "+phone);
+      Product.updateBidDetails(bid_value, Integer.parseInt(product_id), email, phone, username);
+      response.sendRedirect(response.encodeRedirectURL(request.getContextPath() + "/HomePage?Bid-Value-Set"));
+    }else{
+      response.sendRedirect(response.encodeRedirectURL(request.getContextPath() + "/CartPage?product_id="+product_id+"&Error=Bid-Value-Less-Than-Highest-Bid!"));
+    }
+    
 	}
 
 
@@ -163,7 +174,7 @@ public class CartPage extends HttpServlet {
                     HttpServletResponse response)
       throws ServletException, IOException
       {
-      System.out.println("hello   doget cart");
+      // System.out.println("hello   doget cart");
 		  contentManager = new PageContent();
       PrintWriter out = response.getWriter();
 		  HttpSession session = request.getSession();
@@ -171,7 +182,7 @@ public class CartPage extends HttpServlet {
 		  String usertype=(String)session.getAttribute("utype");
 			String username=(String)session.getAttribute("username");
 			contentManager.setContent("This is Home Page you are logged in! "+username+usertype);
-		  contentManager.setHeader(usertype,username,contentManager.getProductsCount(session));
+      contentManager.setHeader(usertype,username,contentManager.getProductsCount(session));
 
     //----------------------------Cart Items=------------------------------------
 
@@ -191,7 +202,8 @@ public class CartPage extends HttpServlet {
     	System.out.println("Session product");
 
       Product c = m.get(product_id);
-      System.out.println("product details "+c);
+      // System.out.println("product details "+c);
+      // System.out.println("########################### highest bidder"+c.getName());
     	// prinProducttMap(cartproducts);
       //
     	// for(Entry<String, Product> m :cartproducts.entrySet()){
@@ -266,7 +278,9 @@ public class CartPage extends HttpServlet {
         contentStr = contentStr +
         "<form method=\"post\" action=\"/ebuy/CartPage\" style=\"display:inline\">"+
         "<input type=\"hidden\" name=\"product_id\" value=\""+c.getId()+"\">"+
-        "<input type=\"text\" name=\"bid_value\" >"+
+        "<input type=\"hidden\" name=\"highest_bid\" value=\""+c.getHighestBid()+"\">"+
+        "<input type=\"hidden\" name=\"username\" value=\""+username+"\">"+
+        "<input type=\"text\" name=\"bid_value\" value=\"\">"+
         "  <button type = \"submit\" value= \"Bid Set\" class=\"addtocart\">Set Bid</button>"+
         "</form>";
 	  	// }

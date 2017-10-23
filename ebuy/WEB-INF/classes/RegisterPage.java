@@ -26,6 +26,8 @@ public class RegisterPage extends HttpServlet {
 		String usertype = request.getParameter("utype");
     String address = request.getParameter("address");
     String zip = request.getParameter("zip");
+    String email = request.getParameter("email");
+    String phone = request.getParameter("phone");
     String credno = request.getParameter("credno");
     String credexp = request.getParameter("credexp");
     String credcvv = request.getParameter("credcvv");
@@ -56,6 +58,8 @@ public class RegisterPage extends HttpServlet {
         userObj.setCredExp(credexp);
         userObj.setcredCvv(credcvv);
         userObj.setZip(zip);
+        userObj.setEmail(email);
+        userObj.setPhone(phone);
 
         userslist.put(user,userObj);
         //Users.dumpUsers(userslist);
@@ -84,6 +88,8 @@ public class RegisterPage extends HttpServlet {
       userObj.setCredExp(credexp);
       userObj.setcredCvv(credcvv);
       userObj.setZip(zip);
+      userObj.setEmail(email);
+      userObj.setPhone(phone);
 
       userslist.put(user,userObj);
       Users.insertUser(userObj);
@@ -159,12 +165,12 @@ public class RegisterPage extends HttpServlet {
     		"      <div class=\"blockinput\">"+
     		"        <i class=\"icon-unlock\"></i><input type=\"password\" placeholder=\"Reenter Password\" name=\"rpassword\">"+
     		"      </div><br><br>"+
-        // "      <div class=\"blockinput\">"+
-    		// "        <i class=\"icon-envelope-alt\"></i><input type=\"text\" name=\"credno\" placeholder=\"Cred. Card No\">"+
-    		// "      </div>"+
-        // "      <div class=\"blockinput\">"+
-    		// "        <i class=\"icon-envelope-alt\"></i><input type=\"text\" name=\"credcvv\" placeholder=\"Cred. Card Cvv\">"+
-    		// "      </div>"+
+        "      <div class=\"blockinput\">"+
+    		"        <i class=\"icon-envelope-alt\"></i><input type=\"text\" name=\"email\" placeholder=\"Email ID\">"+
+    		"      </div>"+
+        "      <div class=\"blockinput\">"+
+    		"        <i class=\"icon-envelope-alt\"></i><input type=\"text\" name=\"phone\" placeholder=\"Phone Number\">"+
+    		"      </div>"+
         // "      <div class=\"blockinput\">"+
     		// "        <i class=\"icon-envelope-alt\"></i><input type=\"text\" name=\"credexp\" placeholder=\"Cred. Card Exp\">"+
     		// "      </div>"+

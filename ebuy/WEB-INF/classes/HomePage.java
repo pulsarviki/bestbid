@@ -110,8 +110,9 @@ public class HomePage extends HttpServlet {
 
 
 		 for(Entry<String, Product> m :products.entrySet()){
-					System.out.println("Each product--------"+m.getKey());
+					// System.out.println("Each product--------"+m.getKey());
 					Product c = m.getValue();
+					// System.out.print("############## Home bidder name"+c.getName());
 					if(isCategory == false || (isCategory == true && category.equalsIgnoreCase(c.getCategory()))) {
 						//		  		contentStr = contentStr +buildString(m, contentStr);
 						 contentStr = contentStr +

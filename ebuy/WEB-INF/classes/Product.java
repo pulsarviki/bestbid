@@ -46,8 +46,8 @@ public class Product implements java.io.Serializable{
      return productset;
    }
 
-	public static void updateBidValue(String bid_value, int product_id){
- 		MySQLDataStoreUtilities.updateBidValue(bid_value, product_id);
+	public static void updateBidDetails(String bid_value, int product_id, String email, String phone, String username){
+ 		MySQLDataStoreUtilities.updateBidDetails(bid_value, product_id, email, phone, username);
  	}
 
 	public Product(String name, double price, String image, String retailer,String condition,double discount , HashMap<String,Accessory> accessories){
@@ -121,6 +121,13 @@ public class Product implements java.io.Serializable{
 	}
 	public void setId(int id) {
 		this.PRODUCT_ID = id;
+	}
+
+	public int getHighestBid() {
+		return (Integer.parseInt(HIGHEST_BID));
+	}
+	public void setHighestBid(String HIGHEST_BID) {
+		this.HIGHEST_BID = HIGHEST_BID;
 	}
 
 	public String getName() {

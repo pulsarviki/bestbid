@@ -10,6 +10,8 @@ public class Users implements java.io.Serializable{
 	private int id;
 	private String name;
 	private String address;
+	private String email;
+	private String phone;
 	private String credNo;
 	private String credCvv;
 	private String credExp;
@@ -44,6 +46,17 @@ public class Users implements java.io.Serializable{
 		this.utype = utype;
 	}
 
+	public Users(String name, String address, String credNo, String credExp, String credCvv, String utype, String email, String phone){
+		this.name = name;
+		this.address = address;
+		this.credNo = credNo;
+		this.credExp = credExp;
+		this.credCvv = credCvv;
+		this.utype = utype;
+		this.email = email;
+		this.phone = phone;
+	}
+
 	public Users(String name, String password){
 		this.name = name;
 		this.password = password;
@@ -58,6 +71,21 @@ public class Users implements java.io.Serializable{
 	}
 	public void setId(int id) {
 		this.id = id;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+		System.out.println("set email is "+this.email);
+	}
+
+	public String getPhone() {
+		return phone;
+	}
+	public void setPhone(String phone) {
+		this.phone = phone;
 	}
 
 	public String getZip() {

@@ -16,13 +16,13 @@ public class MySQLDataStoreUtilities {
         final String JDBC_DRIVER="com.mysql.jdbc.Driver";
         final String DB_URL="jdbc:mysql://localhost:3306/bestbid";
         final String USER = "root";
-        final String PASS = "root";
+        final String PASS = "iamgemini";
 
 	    try {
 			Class.forName("com.mysql.jdbc.Driver");
 
 			conn = DriverManager.getConnection(DB_URL, USER, PASS);
-
+			System.out.println("value of conn "+conn);
 			stmt = conn.createStatement();
 	    } catch (Exception e) {
 			System.out.println("*************ERROR in connecting mySQL DB *******************");
@@ -35,18 +35,17 @@ public class MySQLDataStoreUtilities {
 		try{
 
 			Connection conn = getConnection();
-			String insertIntoCustomerRegisterQuery = "INSERT INTO USERS(NAME,PASSWORD,CREDNO,UTYPE,ADDRESS,ZIP,CREDEXP,CREDCVV) "
-			+ "VALUES (?,?,?,?,?,?,?,?);";
+			String insertIntoCustomerRegisterQuery = "INSERT INTO USERS(NAME,PASSWORD,UTYPE,ADDRESS,ZIP, EMAIL, PHONE) "
+			+ "VALUES (?,?,?,?,?,?,?);";
 			PreparedStatement pst = conn.prepareStatement(insertIntoCustomerRegisterQuery);
 
 			pst.setString(1,u.getName());
 			pst.setString(2,u.getPassword());
-			pst.setString(3,u.getCredNo());
-			pst.setString(4,u.getUtype());
-			pst.setString(5,u.getAddress());
-			pst.setString(6,u.getZip());
-			pst.setString(7,u.getCredExp());
-			pst.setString(8,u.getCredCvv());
+			pst.setString(3,u.getUtype());
+			pst.setString(4,u.getAddress());
+			pst.setString(5,u.getZip());
+			pst.setString(6,u.getEmail());
+			pst.setString(7,u.getPhone());
 			pst.execute();
 			System.out.println(u.getName()+"  "+ u.getPassword()+"    "+ u.getUtype().toString());
 			pst.close();
@@ -103,10 +102,11 @@ public class MySQLDataStoreUtilities {
 
 			while(rs.next())
 			{
-				Users user= new Users(rs.getString("NAME"), rs.getString("ADDRESS"), rs.getString("CREDNO"),0, rs.getString("UTYPE"));
+				Users user= new Users(rs.getString("NAME"), rs.getString("ADDRESS"), rs.getString("CREDNO"), rs.getString("CREDEXP"), rs.getString("CREDCVV"), rs.getString("UTYPE"), rs.getString("EMAIL"), rs.getString("PHONE"));
 				user.setId(rs.getInt("ID"));
 				user.setPassword(rs.getString("PASSWORD"));
-
+				user.setEmail(rs.getString("EMAIL"));
+				user.setPhone(rs.getString("PHONE"));
 				usersFromDB.put(rs.getString("NAME"), user);
 			}
 
@@ -135,7 +135,7 @@ public class MySQLDataStoreUtilities {
 				Product product= new Product(rs.getInt("ID"), rs.getString("PRODUCT_NAME"), rs.getString("HIGHEST_BID"), rs.getString("HIGHEST_BID_BUYER"), rs.getString("CATEGORY"), rs.getString("WARRANTY"), rs.getString("SELLER_NAME"), rs.getString("SELLER_ZIP"), rs.getString("SELLER_CITY"), rs.getString("MANUFACTURE_NAME"),
 												rs.getString("HIGHEST_BID_BUYER_EMAILID"), rs.getString("HIGHEST_BID_BUYER_PHONE"));
 				product.setId(rs.getInt("ID"));
-
+				product.setHighestBid(rs.getString("HIGHEST_BID"));
 				productsFromDB.put(rs.getString("ID"), product);
 			}
 
@@ -271,14 +271,17 @@ public class MySQLDataStoreUtilities {
 		}
 	}
 
-	public static void updateBidValue(String bid_value, int product_id){
+	public static void updateBidDetails(String bid_value, int product_id, String email, String phone, String username){
 		System.out.println("*************Update *******************");
 		try{
 			Connection conn = getConnection();
-			String insertIntoCustomerRegisterQuery = "UPDATE PRODUCTS SET HIGHEST_BID = ? WHERE ID = ?";
+			String insertIntoCustomerRegisterQuery = "UPDATE PRODUCTS SET HIGHEST_BID = ?, HIGHEST_BID_BUYER_EMAILID= ?, HIGHEST_BID_BUYER_PHONE = ?, HIGHEST_BID_BUYER = ? WHERE ID = ?";
 			PreparedStatement pst = conn.prepareStatement(insertIntoCustomerRegisterQuery);
 			pst.setString(1,bid_value);
-			pst.setInt(2, product_id);
+			pst.setString(2,email);
+			pst.setString(3,phone);
+			pst.setString(4,username);
+			pst.setInt(5, product_id);
 
 			pst.executeUpdate();
 			pst.close();
